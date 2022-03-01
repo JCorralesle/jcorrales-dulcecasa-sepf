@@ -12,6 +12,58 @@
   fill: currentColor;
 }
 
-.header {
-  background-image: linear-gradient(to pink, #FF6F91 );
+header {
+  background-color: pink;
 }
+p {
+  color: grey;
+}
+h1 h2 h3 {
+  color: #FF6F91;
+
+}
+main {
+  background-color: whitesmoke;
+}
+.animacion {
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-iteration-count: initial;
+  animation-delay: 0s;
+  color: #FF6F91;
+}
+@keyframes animacion {
+  from {
+    transform: translateX(-200px);
+    color: #FF6F91;
+  }
+  to {
+    transform: translateX(0px);
+    color: pink;
+  }
+}
+
+.imagen {
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-iteration-count: initial;
+  animation-delay: 0s;
+  
+}
+@keyframes imagen {
+  from {
+    transform: translateX(-2000px);
+    
+  }
+  to {
+    transform: translateX(0px);
+    
+  }
+}
+.transicion {
+  transition: 3s;
+
+}
+.transicion:hover {
+width: 600px; 
+ }
